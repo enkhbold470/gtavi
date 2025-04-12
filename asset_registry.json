@@ -1,0 +1,304 @@
+{
+  "models": {
+    "characters": {
+      "player": {
+        "male": {
+          "base": "assets/models/characters/character.fbx",
+          "animations": {
+            "walking": "assets/models/characters/Walking.fbx",
+            "running": "assets/models/characters/Running.fbx",
+            "jumping": "assets/models/characters/Jump.fbx",
+            "idle": "assets/models/characters/Idle.fbx",
+            "shooting": "assets/models/characters/Shooting.fbx",
+            "driving": "assets/models/characters/Driving.fbx",
+            "death": "assets/models/characters/Death.fbx"
+          }
+        },
+        "female": {
+          "base": "assets/models/characters/character_female.fbx",
+          "animations": {
+            "walking": "assets/models/characters/Walking_Female.fbx",
+            "running": "assets/models/characters/Running_Female.fbx",
+            "jumping": "assets/models/characters/Jump_Female.fbx",
+            "idle": "assets/models/characters/Idle_Female.fbx"
+          }
+        }
+      },
+      "npcs": {
+        "businessman": {
+          "base": "assets/models/characters/businessman.fbx",
+          "animations": {
+            "walking": "assets/models/characters/Walking_Businessman.fbx",
+            "idle": "assets/models/characters/Idle_Businessman.fbx"
+          }
+        },
+        "casual_male": {
+          "base": "assets/models/characters/casual_male.fbx",
+          "animations": {
+            "walking": "assets/models/characters/Walking_Casual.fbx",
+            "idle": "assets/models/characters/Idle_Casual.fbx"
+          }
+        },
+        "casual_female": {
+          "base": "assets/models/characters/casual_female.glb",
+          "animations": {
+            "walking": "assets/models/characters/Walking_Female_Casual.fbx",
+            "idle": "assets/models/characters/Idle_Female_Casual.fbx"
+          }
+        },
+        "police_officer": {
+          "base": "assets/models/characters/police_officer.glb",
+          "animations": {
+            "walking": "assets/models/characters/Walking_Police.fbx",
+            "running": "assets/models/characters/Running_Police.fbx",
+            "aiming": "assets/models/characters/Aiming_Police.fbx"
+          }
+        }
+      }
+    },
+    "vehicles": {
+      "sedan": "assets/models/vehicles/sedan.glb",
+      "sports_car": "assets/models/vehicles/sports_car.glb",
+      "truck": "assets/models/vehicles/truck.glb",
+      "motorcycle": "assets/models/vehicles/motorcycle.glb",
+      "police_car": "assets/models/vehicles/police_car.glb"
+    },
+    "buildings": {
+      "skyscrapers": {
+        "skyscraper_1": "assets/models/buildings/skyscraper_1.glb",
+        "skyscraper_2": "assets/models/buildings/skyscraper_2.glb",
+        "skyscraper_3": "assets/models/buildings/skyscraper_3.glb"
+      },
+      "residential": {
+        "house_1": "assets/models/buildings/house_1.glb",
+        "house_2": "assets/models/buildings/house_2.glb",
+        "apartment_building": "assets/models/buildings/apartment_building.glb"
+      },
+      "commercial": {
+        "shop_1": "assets/models/buildings/shop_1.glb",
+        "shop_2": "assets/models/buildings/shop_2.glb",
+        "office_building": "assets/models/buildings/office_building.glb"
+      },
+      "infrastructure": {
+        "traffic_light": "assets/models/buildings/traffic_light.glb",
+        "street_lamp": "assets/models/buildings/street_lamp.glb",
+        "park_bench": "assets/models/buildings/park_bench.glb"
+      }
+    },
+    "props": {
+      "weapons": {
+        "pistol": "assets/models/props/pistol.glb",
+        "shotgun": "assets/models/props/shotgun.glb"
+      },
+      "collectibles": {
+        "package": "assets/models/props/package.glb",
+        "money_stack": "assets/models/props/money_stack.glb"
+      },
+      "environment": {
+        "road_signs": "assets/models/props/road_signs.glb",
+        "barriers": "assets/models/props/barriers.glb",
+        "trash_cans": "assets/models/props/trash_cans.glb"
+      }
+    }
+  },
+  "textures": {
+    "characters": {
+      "skin": {
+        "light": "assets/textures/characters/skin_light.jpg",
+        "medium": "assets/textures/characters/skin_medium.jpg",
+        "dark": "assets/textures/characters/skin_dark.jpg"
+      },
+      "clothing": {
+        "casual": {
+          "male": "assets/textures/characters/clothing_casual_male.png",
+          "female": "assets/textures/characters/clothing_casual_female.png"
+        },
+        "formal": {
+          "male": "assets/textures/characters/clothing_formal_male.png",
+          "female": "assets/textures/characters/clothing_formal_female.png"
+        },
+        "police": "assets/textures/characters/clothing_police.png"
+      }
+    },
+    "vehicles": {
+      "car_paint": {
+        "red": "assets/textures/vehicles/car_paint_red.jpg",
+        "blue": "assets/textures/vehicles/car_paint_blue.jpg",
+        "black": "assets/textures/vehicles/car_paint_black.jpg",
+        "white": "assets/textures/vehicles/car_paint_white.jpg",
+        "silver": "assets/textures/vehicles/car_paint_silver.jpg"
+      },
+      "glass": "assets/textures/vehicles/glass.jpg",
+      "interior": {
+        "leather": "assets/textures/vehicles/interior_leather.jpg",
+        "fabric": "assets/textures/vehicles/interior_fabric.jpg"
+      }
+    },
+    "environment": {
+      "buildings": {
+        "concrete": "assets/textures/environment/concrete_wall.jpg",
+        "brick": "assets/textures/environment/brick_wall.jpg",
+        "glass": "assets/textures/environment/window_glass.jpg"
+      },
+      "road": {
+        "asphalt": "assets/textures/environment/asphalt.jpg",
+        "markings": "assets/textures/environment/road_markings.png",
+        "sidewalk": "assets/textures/environment/sidewalk.jpg"
+      },
+      "skybox": {
+        "day": [
+          "assets/textures/environment/skybox_day_px.png",
+          "assets/textures/environment/skybox_day_nx.png",
+          "assets/textures/environment/skybox_day_py.png",
+          "assets/textures/environment/skybox_day_ny.png",
+          "assets/textures/environment/skybox_day_pz.png",
+          "assets/textures/environment/skybox_day_nz.png"
+        ],
+        "night": [
+          "assets/textures/environment/skybox_night_px.png",
+          "assets/textures/environment/skybox_night_nx.png",
+          "assets/textures/environment/skybox_night_py.png",
+          "assets/textures/environment/skybox_night_ny.png",
+          "assets/textures/environment/skybox_night_pz.png",
+          "assets/textures/environment/skybox_night_nz.png"
+        ]
+      }
+    },
+    "ui": {
+      "frames": {
+        "main_menu": "assets/textures/ui/frame_main_menu.png",
+        "in_game": "assets/textures/ui/frame_in_game.png",
+        "mission": "assets/textures/ui/frame_mission.png"
+      },
+      "buttons": {
+        "normal": "assets/textures/ui/button_normal.png",
+        "hover": "assets/textures/ui/button_hover.png",
+        "pressed": "assets/textures/ui/button_pressed.png"
+      },
+      "icons": {
+        "health": "assets/textures/ui/icon_health.png",
+        "money": "assets/textures/ui/icon_money.png",
+        "weapon": "assets/textures/ui/icon_weapon.png",
+        "wanted_level": "assets/textures/ui/icon_wanted_level.png"
+      }
+    }
+  },
+  "sounds": {
+    "characters": {
+      "footsteps": {
+        "concrete": "assets/sounds/characters/footsteps_concrete.wav",
+        "grass": "assets/sounds/characters/footsteps_grass.wav",
+        "metal": "assets/sounds/characters/footsteps_metal.wav"
+      },
+      "movement": {
+        "jump": "assets/sounds/characters/jump.wav",
+        "landing": "assets/sounds/characters/landing.wav"
+      },
+      "vocals": {
+        "player": {
+          "pain": "assets/sounds/characters/player_pain.wav",
+          "effort": "assets/sounds/characters/player_effort.wav"
+        },
+        "npcs": {
+          "civilian_alert": "assets/sounds/characters/civilian_alert.wav",
+          "police_warning": "assets/sounds/characters/police_warning.wav"
+        }
+      }
+    },
+    "vehicles": {
+      "engine": {
+        "idle": "assets/sounds/vehicles/engine_idle.wav",
+        "accelerating": "assets/sounds/vehicles/engine_accelerating.wav",
+        "high_speed": "assets/sounds/vehicles/engine_high_speed.wav"
+      },
+      "effects": {
+        "brake": "assets/sounds/vehicles/brake.wav",
+        "horn": "assets/sounds/vehicles/horn.wav",
+        "collision": "assets/sounds/vehicles/collision.wav",
+        "door_open": "assets/sounds/vehicles/door_open.wav",
+        "door_close": "assets/sounds/vehicles/door_close.wav"
+      }
+    },
+    "weapons": {
+      "pistol": {
+        "shot": "assets/sounds/weapons/pistol_shot.wav",
+        "reload": "assets/sounds/weapons/pistol_reload.wav",
+        "empty": "assets/sounds/weapons/empty_gun_click.wav"
+      },
+      "shotgun": {
+        "shot": "assets/sounds/weapons/shotgun_shot.wav",
+        "reload": "assets/sounds/weapons/shotgun_reload.wav"
+      }
+    },
+    "environment": {
+      "ambience": {
+        "city": "assets/sounds/environment/city_ambience.wav",
+        "traffic": "assets/sounds/environment/traffic.wav",
+        "birds": "assets/sounds/environment/birds.wav",
+        "wind": "assets/sounds/environment/wind.wav"
+      },
+      "effects": {
+        "police_sirens": "assets/sounds/environment/police_sirens.wav",
+        "car_alarm": "assets/sounds/environment/car_alarm.wav",
+        "explosion": "assets/sounds/environment/explosion.wav"
+      }
+    },
+    "ui": {
+      "menu_navigate": "assets/sounds/ui/menu_navigate.wav",
+      "menu_select": "assets/sounds/ui/menu_select.wav",
+      "mission_complete": "assets/sounds/ui/mission_complete.wav",
+      "mission_failed": "assets/sounds/ui/mission_failed.wav",
+      "notification": "assets/sounds/ui/notification.wav"
+    }
+  },
+  "ui": {
+    "hud": {
+      "health_bar": "assets/ui/health_bar.png",
+      "wanted_levels": [
+        "assets/ui/wanted_level_1.png",
+        "assets/ui/wanted_level_2.png",
+        "assets/ui/wanted_level_3.png",
+        "assets/ui/wanted_level_4.png",
+        "assets/ui/wanted_level_5.png"
+      ],
+      "minimap": {
+        "background": "assets/ui/minimap_background.png",
+        "player_icon": "assets/ui/minimap_player.png",
+        "mission_icon": "assets/ui/minimap_mission.png",
+        "north_indicator": "assets/ui/minimap_north.png"
+      },
+      "weapon_selection": "assets/ui/weapon_selection.png",
+      "money_counter": "assets/ui/money_counter.png"
+    },
+    "menus": {
+      "main_menu": {
+        "background": "assets/ui/main_menu_background.png",
+        "logo": "assets/ui/logo.png",
+        "buttons": {
+          "play": "assets/ui/button_play.png",
+          "options": "assets/ui/button_options.png",
+          "exit": "assets/ui/button_exit.png"
+        }
+      },
+      "pause_menu": {
+        "background": "assets/ui/pause_menu_background.png",
+        "buttons": {
+          "resume": "assets/ui/button_resume.png",
+          "options": "assets/ui/button_options.png",
+          "quit": "assets/ui/button_quit.png"
+        }
+      },
+      "mission": {
+        "start_frame": "assets/ui/mission_start_frame.png",
+        "complete_frame": "assets/ui/mission_complete_frame.png",
+        "failed_frame": "assets/ui/mission_failed_frame.png"
+      }
+    },
+    "loading": {
+      "background": "assets/ui/loading_background.png",
+      "progress_bar": "assets/ui/loading_progress_bar.png",
+      "logo": "assets/ui/loading_logo.png"
+    }
+  }
+}
+
