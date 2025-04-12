@@ -1,0 +1,59 @@
+{
+  "name": "gtavi",
+  "version": "1.0.0",
+  "description": "GTA VI inspired game built with Three.js and WebGL",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 8080",
+    "clean": "rimraf dist",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "threejs",
+    "game",
+    "webgl",
+    "3d",
+    "open-world",
+    "gta",
+    "physics",
+    "vite"
+  ],
+  "author": "WebGL Game Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gtavi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/gtavi/issues"
+  },
+  "homepage": "https://yourusername.github.io/gtavi",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "three": "^0.175.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.175.0",
+    "eslint": "^8.56.0",
+    "gh-pages": "^6.1.1",
+    "rimraf": "^5.0.5",
+    "vite": "^6.2.6"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions",
+    "> 0.5%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
